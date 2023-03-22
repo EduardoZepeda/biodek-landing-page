@@ -1,0 +1,26 @@
+.btn {
+    background: transparent;
+    font-size: var(--font-btn);
+    padding: 0 var(--padding-sm);
+    font-family: 'rajdhani', cursive;
+    border-radius: var(--button-radius);
+    border: 0;
+}
+
+.cardBtn {
+    font-size: var(--font-sm);
+    border: 1px solid var(--white);
+}
+
+.register {
+    padding: 0 var(--padding-2x);
+    border: 1px solid var(--white);
+    text-transform: uppercase;
+}
+
+.subscribe {
+    color: var(--light-gray);
+    background-color: var(--light-green);
+    padding: var(--padding-sm) var(--padding-2x);
+    border-radius: 4px;
+}

@@ -1,0 +1,31 @@
+.organizers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--light-gray);
+}
+
+.organizersCards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--padding-1x);
+}
+
+.organizerCard {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.organizerName {
+    font-size: var(--font-md);
+}
+
+.organizerImg {
+    width: 250px;
+    object-fit: contain;
+}

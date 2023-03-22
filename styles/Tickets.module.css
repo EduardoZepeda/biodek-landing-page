@@ -1,0 +1,43 @@
+.tickets {
+    background-color: var(--light-gray);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.plan {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    height: 400px;
+    border: 1px solid green;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.planPrice {
+    position: absolute;
+    /* minus half circle's height */
+    top: -30px;
+    left: 95px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /* center text inside price bubble */
+    display: grid;
+    place-content: center;
+}

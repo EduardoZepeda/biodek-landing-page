@@ -1,0 +1,9 @@
+.events {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: var(--light-gray);
+}

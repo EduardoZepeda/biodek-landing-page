@@ -1,0 +1,14 @@
+.extraDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--padding-2x);
+    width: 100%;
+    background-color: var(--light-green);
+    color: var(--light-gray);
+}
+
+.title {
+    font-size: var(--font-h1);
+    line-height: 1.15;
+}

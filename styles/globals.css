@@ -1,14 +1,76 @@
+:root {
+  --white: #FFF;
+  --light-purple: #7a00ff;
+  --gray: #9b9b9b;
+  --dark-gray: #222222;
+  --light-gray: #1a1a1a;
+  --dark-pink: #ff48c9;
+  --light-green: #9dff00;
+  --button-radius: 30px;
+  --padding-sm: 0.7rem;
+  --padding-1x: 1rem;
+  --padding-2x: 2rem;
+  --font-sm: 1rem;
+  --font-md: 2rem;
+  --font-lg: 3rem;
+  --font-h1: 20rem;
+  --font-h1-sm: 10rem;
+  --font-h2: 5rem;
+  --margin-1x: 1rem;
+  --font-btn: 1.2rem;
+}
+
+@font-face {
+  font-family: 'buildTitling';
+  src: url('/fonts/built-titling-rg.ttf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rajdhani';
+  src: url('/fonts/Rajdhani-Medium.ttf');
+  font-style: normal;
+}
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'buildTitling', cursive;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'buildTitling';
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--font-h1);
+}
+
+h2 {
+  font-size: var(--font-h2);
 }
 
 * {
@@ -19,8 +81,9 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
-    color: white;
-    background: black;
+    color: var(--white);
+    background: var(--dark-gray);
   }
 }
