@@ -1,6 +1,7 @@
 .subscribe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 100%;
+    background-color: var(--light-gray);
+    display: grid;
+    place-content: center;
     gap: var(--padding-2x);
 }

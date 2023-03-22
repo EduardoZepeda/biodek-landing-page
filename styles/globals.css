@@ -10,6 +10,7 @@
   --padding-sm: 0.7rem;
   --padding-1x: 1rem;
   --padding-2x: 2rem;
+  --padding-3x: 3rem;
   --font-sm: 1rem;
   --font-md: 1.5rem;
   --font-lg: 3rem;
@@ -48,6 +49,9 @@ a {
 li {
   text-decoration: none;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 ul {

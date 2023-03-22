@@ -19,21 +19,15 @@ export default function Home() {
         <meta name="description" content="Eduardo Zepeda's portfolio site " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <Intro />
-        <Events />
-        <Cards />
-        <Description />
-        <ExtraDescription />
-        <Participants />
-        <Organizers />
-        <Tickets />
-        <Subscribe />
-      </main>
-
-      <footer className={styles.footer}>
-
-      </footer>
+      <Intro />
+      <Events />
+      <Cards />
+      <Description />
+      <ExtraDescription />
+      <Participants />
+      <Organizers />
+      <Tickets />
+      <Subscribe />
     </>
   )
 }

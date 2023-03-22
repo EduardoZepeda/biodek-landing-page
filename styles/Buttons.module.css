@@ -19,8 +19,14 @@
 }
 
 .subscribe {
+    width: 100%;
     color: var(--light-gray);
     background-color: var(--light-green);
     padding: var(--padding-sm) var(--padding-2x);
     border-radius: 4px;
+}
+
+.loginLogout {
+    background-color: var(--light-purple);
+    padding: var(--padding-sm) var(--padding-2x);
 }

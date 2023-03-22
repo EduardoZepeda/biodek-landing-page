@@ -1,8 +1,8 @@
 .nav {
-    background-color: var(--light-purple);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: var(--light-purple);
     height: 80px;
 }
 
@@ -18,4 +18,11 @@
     color: var(--light-green);
     border-radius: var(--button-radius);
     padding: var(--padding-sm);
+}
+
+.navMenu {
+    display: flex;
+    align-content: center;
+    gap: var(--padding-1x);
+    font-size: var(--font-md);
 }

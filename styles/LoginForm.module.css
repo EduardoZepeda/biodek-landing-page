@@ -1,0 +1,22 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    color: var(--light-gray);
+    background-color: var(--light-green);
+    padding: var(--padding-3x);
+    gap: var(--padding-1x);
+}
+
+.formContainer input {
+    padding: var(--padding-1x);
+}
+
+.formContainer label {
+    font-family: 'rajdhani';
+    font-size: 1.2rem;
+}
+
+.formInput:focus {
+    outline: none;
+}
