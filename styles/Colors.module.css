@@ -1,0 +1,14 @@
+.green {
+    background-color: var(--light-green);
+    color: var(--light-gray);
+}
+
+.purple {
+    background-color: var(--light-purple);
+    color: var(--light-gray);
+}
+
+.pink {
+    background-color: var(--dark-pink);
+    color: var(--light-gray);
+}

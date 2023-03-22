@@ -1,6 +1,6 @@
 import React, { useId } from 'react'
 import styles from '../../styles/Home.module.css'
-import stylesBtn from '../../styles/Buttons.module.css'
+import stylesColors from '../../styles/Colors.module.css'
 import stylesTickets from '../../styles/Tickets.module.css'
 import Plan from './Plan'
 
@@ -8,12 +8,14 @@ const plans = [
     {
         price: "$12",
         intro: "intro",
-        benefits: ["uno", "dos", "tres"]
+        benefits: ["uno", "dos", "tres"],
+        style: stylesColors.pink
     },
     {
         price: "$12",
         intro: "intro",
-        benefits: ["uno", "dos", "tres"]
+        benefits: ["uno", "dos", "tres"],
+        style: stylesColors.green
     }
 ]
 

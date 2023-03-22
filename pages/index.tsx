@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Nav from './components/Nav'
 import Intro from './components/Intro'
 import Events from './components/Events'
 import Cards from './components/Cards'
@@ -14,13 +13,12 @@ import Subscribe from './components/Subscribe'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Flow</title>
         <meta name="description" content="Eduardo Zepeda's portfolio site " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Nav />
       <main className={styles.main}>
         <Intro />
         <Events />
@@ -36,6 +34,6 @@ export default function Home() {
       <footer className={styles.footer}>
 
       </footer>
-    </div>
+    </>
   )
 }

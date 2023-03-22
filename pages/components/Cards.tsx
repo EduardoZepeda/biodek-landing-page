@@ -8,7 +8,7 @@ const cardsInfo = [
         title: "title",
         date: "date",
         category: "category",
-        imgSrc: "/profiles/humano1.jpg",
+        imgSrc: "profiles/humano1.jpg",
         alt: "alt"
     },
     {
@@ -16,7 +16,7 @@ const cardsInfo = [
         title: "title",
         date: "date",
         category: "category",
-        imgSrc: "/profiles/humano1.jpg",
+        imgSrc: "profiles/humano1.jpg",
         alt: "alt"
     },
     {
@@ -24,7 +24,7 @@ const cardsInfo = [
         title: "title",
         date: "date",
         category: "category",
-        imgSrc: "/profiles/humano1.jpg",
+        imgSrc: "profiles/humano1.jpg",
         alt: "alt"
     },
     {
@@ -32,7 +32,7 @@ const cardsInfo = [
         title: "title",
         date: "date",
         category: "category",
-        imgSrc: "/profiles/humano1.jpg",
+        imgSrc: "profiles/humano1.jpg",
         alt: "alt"
     },
     {
@@ -40,7 +40,7 @@ const cardsInfo = [
         title: "title",
         date: "date",
         category: "category",
-        imgSrc: "/profiles/humano1.jpg",
+        imgSrc: "profiles/humano1.jpg",
         alt: "alt"
     }
 ]

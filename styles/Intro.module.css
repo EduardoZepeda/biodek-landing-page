@@ -8,6 +8,10 @@
     align-content: center;
 }
 
+.descriptionText {
+    max-width: 64ch;
+}
+
 .title {
     font-size: var(--font-h1);
     line-height: 1.15;

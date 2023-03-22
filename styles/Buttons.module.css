@@ -5,6 +5,7 @@
     font-family: 'rajdhani', cursive;
     border-radius: var(--button-radius);
     border: 0;
+    text-transform: uppercase;
 }
 
 .cardBtn {
@@ -15,7 +16,6 @@
 .register {
     padding: 0 var(--padding-2x);
     border: 1px solid var(--white);
-    text-transform: uppercase;
 }
 
 .subscribe {

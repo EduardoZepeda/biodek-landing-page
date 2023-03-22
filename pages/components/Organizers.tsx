@@ -7,25 +7,25 @@ const organizersInfo = [
     {
         name: "name",
         job: "job",
-        imgSrc: "/profiles/humano1.jpg",
+        imgSrc: "profiles/humano1.jpg",
         alt: "alt"
     },
     {
         name: "name",
         job: "job",
-        imgSrc: "/profiles/humano1.jpg",
+        imgSrc: "profiles/humano1.jpg",
         alt: "alt"
     },
     {
         name: "name",
         job: "job",
-        imgSrc: "/profiles/humano1.jpg",
+        imgSrc: "profiles/humano1.jpg",
         alt: "alt"
     },
     {
         name: "name",
         job: "job",
-        imgSrc: "/profiles/humano1.jpg",
+        imgSrc: "profiles/humano1.jpg",
         alt: "alt"
     }
 ]
