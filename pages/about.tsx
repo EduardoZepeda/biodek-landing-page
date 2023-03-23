@@ -7,7 +7,7 @@ function About() {
     return (
         <>
             <Head>
-                <title>About</title>
+                <title>About Biodek</title>
                 <meta name="login" content="About or magical project" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

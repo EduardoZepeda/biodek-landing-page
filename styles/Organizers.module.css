@@ -11,6 +11,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: var(--padding-1x);
+    margin: var(--margin-1x);
 }
 
 .organizerCard {
@@ -19,6 +20,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    gap: var(--padding-3x);
 }
 
 .organizerName {

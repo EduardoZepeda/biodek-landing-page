@@ -5,27 +5,27 @@ import OrganizerCard from './OrganizerCard'
 
 const organizersInfo = [
     {
-        name: "name",
-        job: "job",
-        imgSrc: "profiles/humano1.jpg",
+        name: "Brian Miller",
+        job: "Biologist",
+        imgSrc: "profiles/humano6.jpg",
         alt: "alt"
     },
     {
-        name: "name",
-        job: "job",
-        imgSrc: "profiles/humano1.jpg",
+        name: "Arnold Williams",
+        job: "Researcher",
+        imgSrc: "profiles/humano7.jpg",
         alt: "alt"
     },
     {
-        name: "name",
-        job: "job",
-        imgSrc: "profiles/humano1.jpg",
+        name: "John Brown",
+        job: "Researcher",
+        imgSrc: "profiles/humano8.jpg",
         alt: "alt"
     },
     {
-        name: "name",
-        job: "job",
-        imgSrc: "profiles/humano1.jpg",
+        name: "Eduardo Magallanes",
+        job: "Pharmacist",
+        imgSrc: "profiles/humano9.jpg",
         alt: "alt"
     }
 ]
@@ -36,7 +36,7 @@ const Organizers = () => {
 
     return (
         <div className={`${stylesOrg.organizers} ${styles.section}`}>
-            <h2>Hola</h2>
+            <h2>Organizers</h2>
             <div className={stylesOrg.organizersCards}>
                 {organizersInfo.map((organizer, index) => <OrganizerCard key={`${id}-${index}`} {...organizer} />)}
             </div>

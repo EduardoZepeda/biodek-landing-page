@@ -5,9 +5,9 @@ import stylesIntro from '../../styles/Intro.module.css'
 const Description = () => {
     return (
         <div className={`${styles.description} ${styles.section}`}>
-            <div className={stylesIntro.descriptionText}><h2>Description Description Description Description</h2></div>
-            <div className={`${styles.secondaryText} ${styles.descriptionInfo}`}>bla bla bla bla</div>
-            <div className={`${stylesIntro.title} ${styles.descriptionInfo}`}>Follow</div>
+            <div className={stylesIntro.descriptionText}><h2>Molecular biology nanotechnology genetics biophysics</h2></div>
+            <div className={`${styles.secondaryText} ${styles.descriptionInfo}`}>Don't miss it!</div>
+            <div className={`${stylesIntro.title} ${styles.descriptionInfo}`}>Biodek</div>
         </div >
     )
 }

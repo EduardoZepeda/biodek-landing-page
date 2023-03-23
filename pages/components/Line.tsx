@@ -12,7 +12,7 @@ const Line = ({ LineOfParticipants }: LineProps) => {
     return (
         <div className={styles.section}>
             <ul>
-                {LineOfParticipants.map((subject, index) => <li key={`${id}-${index}`} className={stylesLines.line}>{subject}</li>)}
+                {(LineOfParticipants as string[])?.map((subject, index) => <li key={`${id}-${index}`} className={stylesLines.line}>{subject}</li>)}
             </ul>
         </div>
     )

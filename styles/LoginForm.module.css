@@ -6,6 +6,7 @@
     background-color: var(--light-green);
     padding: var(--padding-3x);
     gap: var(--padding-1x);
+    font-size: 1.2rem;
 }
 
 .formContainer input {
@@ -14,9 +15,18 @@
 
 .formContainer label {
     font-family: 'rajdhani';
-    font-size: 1.2rem;
 }
 
 .formInput:focus {
     outline: none;
+}
+
+.formError {
+    color: var(--red);
+    font-size: var(--font-md);
+}
+
+.formSuccess {
+    color: var(--light-purple);
+    font-size: var(--font-md);
 }

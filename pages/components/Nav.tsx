@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Nav = () => {
     return (
         <nav className={`${stylesNav.nav} ${styles.section}`}>
-            <div className={stylesNav.navBrand}><Link href="/">Flow party</Link></div>
+            <div className={stylesNav.navBrand}><Link href="/">Biodek</Link></div>
             <div>
                 <ul className={stylesNav.navMenu}>
                     <li><Link href="/about">About</Link></li>

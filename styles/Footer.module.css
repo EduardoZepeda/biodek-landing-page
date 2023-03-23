@@ -1,5 +1,6 @@
 .footer {
+    font-family: 'rajdhani';
+    background-color: var(--light-gray);
     display: flex;
     align-items: flex-end;
-    background-color: var(--light-green);
 }

@@ -3,7 +3,7 @@ import styles from '../../styles/Home.module.css'
 import stylesPtr from '../../styles/Participants.module.css'
 import Line from './Line'
 
-const LinesOfParticipants: string[][] = [["name", "name2", "name3"], ["name", "name2", "name3"], ["name", "name2", "name3"]]
+const LinesOfParticipants: string[][] = [["Craig Venter", "Jennifer Doudna", "Antonio Lazcano"], ["Marcus Feldman", "Emmanuelle Charpentier", "Monica Bettencourt-Dias"], ["José Sarukhán", "Rodolfo Dirzo", "Adrian Fernández"]]
 
 const Participants = () => {
     const id = useId()
@@ -14,7 +14,7 @@ const Participants = () => {
             <div className={stylesPtr.lines}>
                 {LinesOfParticipants.map((line, index) => <Line key={`${id}-${index}`} LineOfParticipants={line} />)}
             </div>
-            <div>Otro mensaje</div>
+            <div>And a lot more of top scientists</div>
         </div>
     )
 }

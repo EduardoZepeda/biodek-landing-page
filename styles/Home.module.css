@@ -1,11 +1,14 @@
-.container {}
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 80px auto 80px;
+}
 
 .section {
-  padding: var(--padding-2x) var(--padding-1x);
+  padding: var(--padding-3x) var(--padding-2x);
 }
 
 .main {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,6 +20,7 @@
   font-size: var(--font-md);
   text-transform: uppercase;
   font-family: 'rajdhani', sans-serif;
+  max-width: 64ch;
 }
 
 .description {
@@ -40,4 +44,10 @@
 .participants {
   width: 100%;
   background-color: var(--light-gray);
+}
+
+@media (min-width) {
+  .section {
+    padding: var(--padding-2x) var(--padding-1x);
+  }
 }

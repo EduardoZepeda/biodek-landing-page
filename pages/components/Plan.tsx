@@ -1,5 +1,7 @@
 import React, { useId } from 'react'
 import stylesTickets from '../../styles/Tickets.module.css'
+import stylesBtn from '../../styles/Buttons.module.css'
+import { useRouter } from 'next/router';
 
 type planProps = {
     price: string
@@ -9,6 +11,7 @@ type planProps = {
 }
 
 const Plan = ({ price, intro, benefits, style }: planProps) => {
+    const router = useRouter()
     const id = useId()
 
     return (
@@ -17,9 +20,10 @@ const Plan = ({ price, intro, benefits, style }: planProps) => {
             <div className={stylesTickets.planIntro}>{intro}<hr /></div>
             <div className={stylesTickets.planBenefits}>
                 <ul>
-                    {benefits.map((benefit, index) => <li key={`${id}-${index}`}>{benefit}</li>)}
+                    {(benefits as string[])?.map((benefit, index) => <li className={stylesTickets.planBenefit} key={`${id}-${index}`}>{benefit}</li>)}
                 </ul>
             </div>
+            {router.pathname === '/subscribe' ? <button className={`${stylesBtn.btn} ${stylesBtn.loginLogout}`}>{'Buy'}</button> : null}
         </div >
     )
 }

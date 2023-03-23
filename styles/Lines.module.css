@@ -8,5 +8,5 @@
     width: 250px;
     margin: var(--margin-1x);
     border-bottom: 1px solid var(--gray);
-    font-size: var(--font-sm);
+    font-size: 1.4rem;
 }

@@ -5,8 +5,8 @@ import stylesExtraDescription from '../../styles/ExtraDescription.module.css'
 const ExtraDescription = () => {
     return (
         <div className={`${stylesExtraDescription.extraDescription} ${styles.section}`}>
-            <div className={styles.secondaryText}>bla bla bla bla</div>
-            <div className={stylesExtraDescription.title}><h2>Una descripcion</h2></div>
+            <div className={styles.secondaryText}>Who are we?</div>
+            <div className={stylesExtraDescription.title}><h2>We're a vibrant community willing to take science to the next level.</h2></div>
         </div >
     )
 }
