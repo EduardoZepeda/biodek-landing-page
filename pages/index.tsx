@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Intro from './components/Intro'
 import Events from './components/Events'
 import Cards from './components/Cards'
@@ -15,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Flow</title>
+        <title>⚗️ Biodek</title>
         <meta name="description" content="Eduardo Zepeda's portfolio site " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
