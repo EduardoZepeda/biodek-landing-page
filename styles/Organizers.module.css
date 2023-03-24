@@ -10,8 +10,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: var(--padding-1x);
-    margin: var(--margin-1x);
+    gap: var(--margin-1x);
+    margin: var(--margin-2x) var(--margin-1x);
 }
 
 .organizerCard {
@@ -20,7 +20,8 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: var(--padding-3x);
+    gap: var(--padding-1x);
+    margin: var(--margin-2x) var(--margin-1x);
 }
 
 .organizerName {
