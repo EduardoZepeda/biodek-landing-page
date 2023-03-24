@@ -13,7 +13,7 @@ const OrganizerCard = ({ name, job, imgSrc, alt }: OrganizerCardProps) => {
     return (
         <div className={stylesOrg.organizerCard}>
             <div>
-                <img className={stylesOrg.organizerImg} src={imgSrc} alt={alt} />
+                <img loading="lazy" className={stylesOrg.organizerImg} src={imgSrc} alt={alt} />
             </div>
             <div className={stylesOrg.data}>
                 <p className={stylesOrg.organizerName}>{name}</p>

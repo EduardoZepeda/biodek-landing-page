@@ -15,7 +15,7 @@ const Card = ({ name, category, title, date, imgSrc, alt }: CardProps) => {
 
     return (
         <div className={styles.card}>
-            <img className={styles.cardImage} src={imgSrc} alt={alt} />
+            <img loading="lazy" className={styles.cardImage} src={imgSrc} alt={alt} />
             <div className={styles.topCard}>
                 <div className={styles.cardNameAndDate}>
                     <div className={styles.cardName}>{name}</div>
