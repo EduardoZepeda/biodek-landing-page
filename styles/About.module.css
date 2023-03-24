@@ -1,0 +1,43 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--padding-2x);
+    padding: var(--padding-2x);
+    justify-content: space-around;
+    font-size: var(--font-md);
+}
+
+.intro {
+    max-width: 64ch;
+}
+
+.intro p {
+    font-family: 'rajdhani';
+    line-height: 1.5;
+}
+
+.pictureContainer {
+    position: relative;
+    width: 800px;
+    height: 550px;
+}
+
+
+.imgBg {
+    mask: url(../public/masks/ameba.svg) no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .pictureContainer {
+        width: 400px;
+        height: 350px;
+    }
+}
