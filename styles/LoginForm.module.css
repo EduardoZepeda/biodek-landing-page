@@ -22,7 +22,7 @@
 }
 
 .formError {
-    color: var(--red);
+    color: var(--light-red);
     font-size: var(--font-md);
 }
 

@@ -28,6 +28,11 @@
 }
 
 .loginLogout {
+    color: var(--white);
     background-color: var(--light-purple);
     padding: var(--padding-sm) var(--padding-2x);
+}
+
+.formError {
+    color: var(--light-red);
 }
