@@ -11,6 +11,7 @@
 .cardBtn {
     font-size: var(--font-sm);
     border: 1px solid var(--white);
+    color: var(--white);
 }
 
 .register {

@@ -30,9 +30,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-
-.description {
   line-height: 1.5;
   font-size: var(--font-md);
 }

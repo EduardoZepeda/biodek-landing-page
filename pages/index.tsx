@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>⚗️ Biodek</title>
+        <title>Biodek</title>
         <meta name="description" content="Eduardo Zepeda's portfolio site " />
         <link rel="icon" href="/favicon.ico" />
       </Head>

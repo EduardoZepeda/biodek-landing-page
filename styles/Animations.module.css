@@ -1,0 +1,19 @@
+.translateRight {
+    transition: transform 1.5s ease;
+    transform: translateX(30px);
+}
+
+.translateLeft {
+    transition: transform 1.5s ease;
+    transform: translateX(-30px);
+}
+
+.translateDown {
+    transition: transform 1.5s ease;
+    transform: translateY(30px);
+}
+
+.translateUp {
+    transition: transform 1.5s ease;
+    transform: translateY(-30px);
+}

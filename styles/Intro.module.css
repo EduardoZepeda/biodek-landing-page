@@ -11,6 +11,11 @@
 .descriptionText {
     max-width: 64ch;
     line-height: 1;
+    /* background-color: black; */
+}
+
+.descriptionInfo {
+    align-self: flex-end;
 }
 
 .title {

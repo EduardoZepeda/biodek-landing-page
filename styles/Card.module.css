@@ -53,7 +53,7 @@
     left: 0;
     object-fit: cover;
     /* smooth the zoom effect on hover */
-    transition: transform .5s ease;
+    transition: transform 0.75s ease;
 }
 
 .cardTitle {
