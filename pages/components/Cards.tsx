@@ -2,15 +2,11 @@ import React, { useId } from 'react'
 import stylesCards from '../../styles/Card.module.css'
 import Card from './Card'
 
-// update date dynamically for example purposes
-let date = new Date()
-date.setDate(date.getDate() + 1)
-
 const cardsInfo = [
     {
         name: "Aoi Kusanagi",
         title: "Cytochrome P450",
-        date: date.toLocaleDateString(),
+        date: "tomorrow",
         category: "Molecular biology",
         imgSrc: "profiles/humano1.jpg",
         alt: "Molecular biology conference"
@@ -18,7 +14,7 @@ const cardsInfo = [
     {
         name: "Richard Guzman",
         title: "CRISPR applic.",
-        date: date.toLocaleDateString(),
+        date: "tomorrow",
         category: "Molecular biology",
         imgSrc: "profiles/humano2.jpg",
         alt: "alt"
@@ -26,7 +22,7 @@ const cardsInfo = [
     {
         name: "Emma Smith",
         title: "New nano materials",
-        date: date.toLocaleDateString(),
+        date: "tomorrow",
         category: "nano technology",
         imgSrc: "profiles/humano3.jpg",
         alt: "alt"
@@ -34,7 +30,7 @@ const cardsInfo = [
     {
         name: "Erika Hathaway",
         title: "E. magallonella spp",
-        date: date.toLocaleDateString(),
+        date: "tomorrow",
         category: "Microbiology",
         imgSrc: "profiles/humano4.jpg",
         alt: "alt"
@@ -42,7 +38,7 @@ const cardsInfo = [
     {
         name: "David Azanza",
         title: "DNA methylation",
-        date: date.toLocaleDateString(),
+        date: "tomorrow",
         category: "Molecular biology",
         imgSrc: "profiles/humano5.jpg",
         alt: "alt"
