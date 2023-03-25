@@ -2,7 +2,18 @@ import React, { useId } from 'react'
 import stylesCards from '../../styles/Card.module.css'
 import Card from './Card'
 
-const cardsInfo = [
+type Card = {
+    name: string
+    title: string
+    date: string
+    category: string
+    imgSrc: string
+    alt: string
+}
+
+type Cards = Card[]
+
+const cardsInfo: Cards = [
     {
         name: "Aoi Kusanagi",
         title: "Cytochrome P450",

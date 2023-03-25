@@ -3,7 +3,16 @@ import styles from '../../styles/Home.module.css'
 import stylesOrg from '../../styles/Organizers.module.css'
 import OrganizerCard from './OrganizerCard'
 
-const organizersInfo = [
+type organizer = {
+    name: string
+    job: string
+    imgSrc: string
+    alt: string
+}
+
+type organizers = organizer[]
+
+const organizersInfo: organizers = [
     {
         name: "Brian Miller",
         job: "Biologist",

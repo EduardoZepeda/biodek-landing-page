@@ -23,7 +23,7 @@ const LoginForm = () => {
         event.preventDefault()
         setEmail('')
         setPassword('')
-        const response = await fetch('/api/login', {
+        const response: Response = await fetch('/api/login', {
             method: 'POST',
             body: JSON.stringify({ email, password }), // data can be `string` or {object}!
             headers: {
