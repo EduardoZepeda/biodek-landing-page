@@ -27,13 +27,13 @@
   font-family: 'buildTitling';
   src: url('/fonts/built-titling-rg.ttf');
   font-style: normal;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
   font-family: 'rajdhani';
   src: url('/fonts/Rajdhani-Medium.ttf');
-  font-display: swap;
+  font-display: fallback;
 }
 
 
