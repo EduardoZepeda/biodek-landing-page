@@ -53,7 +53,32 @@ const cardsInfo: Cards = [
         category: "Molecular biology",
         imgSrc: "profiles/humano5.jpg",
         alt: "alt"
+    },
+    {
+        name: "Oscar Aguinaga",
+        title: "E. magallonella spp",
+        date: "tomorrow",
+        category: "Microbiology",
+        imgSrc: "profiles/humano9.jpg",
+        alt: "alt"
+    },
+    {
+        name: "Amir Acharya",
+        title: "RNA purification",
+        date: "tomorrow",
+        category: "Molecular biology",
+        imgSrc: "profiles/humano10.jpg",
+        alt: "alt"
+    },
+    {
+        name: "Rodrigo Orendai",
+        title: "New polymerase",
+        date: "tomorrow",
+        category: "Molecular biology",
+        imgSrc: "profiles/humano11.jpg",
+        alt: "alt"
     }
+
 ]
 
 
