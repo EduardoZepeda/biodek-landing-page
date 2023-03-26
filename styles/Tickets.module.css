@@ -55,5 +55,19 @@
 }
 
 .planBenefit {
-    margin: var(--margin-1x);
+    margin: var(--margin-1x) 0;
+}
+
+.icon {
+    animation: 2s ease-in 1s infinite both running alternate upAndDown;
+}
+
+@keyframes upAndDown {
+    from {
+        transform: translateY(3px);
+    }
+
+    to {
+        transform: translateY(-3px);
+    }
 }
