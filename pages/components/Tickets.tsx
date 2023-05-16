@@ -16,14 +16,14 @@ type plansType = plan[]
 
 const plans: plansType = [
     {
-        price: "$90",
+        price: "90",
         intro: "Your basic access, for newcomers",
         benefits: ["✓ Access to the event all days", "✓ Welcoming kit"],
         icon: "/icons/star.svg",
         style: stylesColors.pink
     },
     {
-        price: "$120",
+        price: "120",
         intro: "For experienced scientists",
         benefits: ["✓ Exclusive conferences", "✓ Lifetime access to videos", "✓ No lines", "✓ Food discount"],
         icon: "/icons/molecule.svg",

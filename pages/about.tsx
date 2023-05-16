@@ -15,7 +15,7 @@ function About() {
                     <p>Welcome to Biodek, a company that specializes in organizing biochemistry conferences for professionals and researchers in the field. We strive to bring together experts from academia, industry, and government to discuss the latest advancements in biochemistry and related fields. Our conferences provide a platform for attendees to share their research, exchange ideas, and build collaborations that lead to groundbreaking discoveries. With a team of experienced organizers and a commitment to excellence, we ensure that our events are informative, engaging, and memorable. Join us at our next conference and be a part of the exciting world of biochemistry.</p>
                 </div>
                 <div className={stylesAbout.pictureContainer}>
-                    <img className={stylesAbout.imgBg} src={'about/main.jpg'} alt="" />
+                    <img loading="lazy" className={stylesAbout.imgBg} src={'about/main.jpg'} alt="" />
                 </div>
             </div>
 
