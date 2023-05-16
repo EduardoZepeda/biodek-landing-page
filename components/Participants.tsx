@@ -1,6 +1,6 @@
 import React, { useId } from 'react'
-import styles from '../../styles/Home.module.css'
-import stylesPtr from '../../styles/Participants.module.css'
+import styles from '@styles/Home.module.css'
+import stylesPtr from '@styles/Participants.module.css'
 import Line from './Line'
 
 const LinesOfParticipants: string[][] = [["Craig Venter", "Jennifer Doudna", "Antonio Lazcano"], ["Marcus Feldman", "Emmanuelle Charpentier", "Monica Bettencourt-Dias"], ["José Sarukhán", "Rodolfo Dirzo", "Adrian Fernández"]]

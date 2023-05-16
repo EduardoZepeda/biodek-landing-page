@@ -1,5 +1,5 @@
 import React, { useId } from 'react'
-import stylesCards from '../../styles/Card.module.css'
+import stylesCards from '@styles/Card.module.css'
 import Card from './Card'
 
 type Card = {

@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import stylesAbout from '../styles/About.module.css'
+import stylesAbout from '@styles/About.module.css'
 
 function About() {
     return (

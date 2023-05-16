@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import stylesForm from '../../styles/LoginForm.module.css'
-import stylesButton from '../../styles/Buttons.module.css'
+import stylesForm from '@styles/LoginForm.module.css'
+import stylesButton from '@styles/Buttons.module.css'
 import Link from 'next/link'
-
-
 
 
 const LoginForm = () => {

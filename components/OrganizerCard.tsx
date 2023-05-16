@@ -1,5 +1,5 @@
 import React from 'react'
-import stylesOrg from '../../styles/Organizers.module.css'
+import stylesOrg from '@styles/Organizers.module.css'
 
 type OrganizerCardProps = {
     name: string

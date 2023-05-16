@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from '../../styles/Home.module.css'
-import stylesExtraDescription from '../../styles/ExtraDescription.module.css'
-import stylesAni from '../../styles/Animations.module.css'
+import styles from '@styles/Home.module.css'
+import stylesExtraDescription from '@styles/ExtraDescription.module.css'
+import stylesAni from '@styles/Animations.module.css'
 import { useInView } from 'react-intersection-observer'
 
 const ExtraDescription = () => {

@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import RecoverPasswordForm from './components/RecoverPasswordForm'
+import RecoverPasswordForm from '@components/RecoverPasswordForm'
 
 function RecoverPassword() {
     return (

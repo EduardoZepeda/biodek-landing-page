@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import stylesForm from '../../styles/LoginForm.module.css'
-import stylesButton from '../../styles/Buttons.module.css'
+import stylesForm from '@styles/LoginForm.module.css'
+import stylesButton from '@styles/Buttons.module.css'
 
 const RecoverPasswordForm = () => {
     const [email, setEmail] = useState<string>('');

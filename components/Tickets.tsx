@@ -1,7 +1,7 @@
 import React, { useId } from 'react'
-import styles from '../../styles/Home.module.css'
-import stylesColors from '../../styles/Colors.module.css'
-import stylesTickets from '../../styles/Tickets.module.css'
+import styles from '@styles/Home.module.css'
+import stylesColors from '@styles/Colors.module.css'
+import stylesTickets from '@styles/Tickets.module.css'
 import Plan from './Plan'
 
 type plan = {

@@ -1,6 +1,6 @@
 import React, { useId } from 'react'
-import stylesLines from '../../styles/Lines.module.css'
-import styles from '../../styles/Home.module.css'
+import stylesLines from '@styles/Lines.module.css'
+import styles from '@styles/Home.module.css'
 
 type LineProps = {
     LineOfParticipants: string[]

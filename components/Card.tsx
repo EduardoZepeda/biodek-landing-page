@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from '../../styles/Card.module.css'
-import stylesBtn from '../../styles/Buttons.module.css'
+import styles from '@styles/Card.module.css'
+import stylesBtn from '@styles/Buttons.module.css'
 
 type CardProps = {
     name: string

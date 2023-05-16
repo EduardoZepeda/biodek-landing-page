@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Tickets from './components/Tickets'
+import Tickets from '@components/Tickets'
 
 function Subscribe() {
     return (

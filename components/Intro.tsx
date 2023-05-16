@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from '../../styles/Home.module.css'
-import stylesIntro from '../../styles/Intro.module.css'
+import styles from '@styles/Home.module.css'
+import stylesIntro from '@styles/Intro.module.css'
 
 const Intro = () => {
     return (

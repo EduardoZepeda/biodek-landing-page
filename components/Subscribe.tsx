@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from '../../styles/Home.module.css'
-import stylesBtn from '../../styles/Buttons.module.css'
-import stylesSubscribe from '../../styles/Subscribe.module.css'
+import styles from '@styles/Home.module.css'
+import stylesBtn from '@styles/Buttons.module.css'
+import stylesSubscribe from '@styles/Subscribe.module.css'
 import Link from 'next/link'
 
 const Subscribe = () => {

@@ -1,6 +1,6 @@
 import React, { useId } from 'react'
-import styles from '../../styles/Home.module.css'
-import stylesOrg from '../../styles/Organizers.module.css'
+import styles from '@styles/Home.module.css'
+import stylesOrg from '@styles/Organizers.module.css'
 import OrganizerCard from './OrganizerCard'
 
 type organizer = {

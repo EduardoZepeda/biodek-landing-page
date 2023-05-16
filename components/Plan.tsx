@@ -1,6 +1,6 @@
 import React, { useId } from 'react'
-import stylesTickets from '../../styles/Tickets.module.css'
-import stylesBtn from '../../styles/Buttons.module.css'
+import stylesTickets from '@styles/Tickets.module.css'
+import stylesBtn from '@styles/Buttons.module.css'
 import { useRouter } from 'next/router';
 import PaypalButton from './PaypalButton'
 
